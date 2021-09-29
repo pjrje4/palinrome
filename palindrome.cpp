@@ -37,14 +37,9 @@ int main() //main loop
 		count2++;
 	}
 	if (strcmp(reverse, stringput2) == 0) {
-		cout << "is pal";
+		cout << "Palindrome" << endl;
 	}
-
-
-	cout << stringput << endl;
-	cout << stringput2 << endl;
-	cout << reverse << endl;
-	cout << strlen(stringput2) << endl;
-	cout << strlen(reverse) << endl;
-
+	else {
+		cout << "Not a palindrome" << endl;
+	}
 }
